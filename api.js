@@ -7,13 +7,13 @@ async function getExchangeRate(daMoeda, paraMoeda){
  
     try{
 
-       const response = await fetch(´${apiURL}${daMoeda}´); // TRAZENDO O LINK DE API
+       const response = await fetch(´ ${apiURL}${daMoeda} ´); // TRAZENDO O LINK DE API
        const data = await response.json();
 
        if(data.result === 'sucess'){
             return data.conversion_rates[paraMoeda]; //RETORNO O VALOR DA MOEDA
 
-       }eslse{
+       }else{
 
         throw new Error('Erro ao buscar a taxa de câmbio');
 
