@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 25px;
+    padding: 1px;
+    background-color: #a579f7; /* Fundo leve e suave */
+    display: flex;
+    flex-direction: column; /* Alinha os elementos em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Ocupa toda a altura da tela */
+}
+.titulo {
+    text-align: center;
+}
+ 
+h2 {
+    margin: 0 auto 40px; /* Centraliza horizontalmente e define espaçamento inferior */
+    text-align: center;
+    background-color: #5d2e88;
+    border-radius: 50px;
+    padding: 20px;
+    width: 80%; /* Certifique-se de que o pai tem espaço suficiente */
+    color: #ffffff; /* Altere #333 para qualquer cor desejada */
+}
+ 
+ 
+h1 {
+    font-size: 2.5rem;
+    color: #5E6472; /* Título em um tom de cinza suave */
+}
+ 
+section {
+    background: #FFFFFF; /* Fundo branco */
+    padding: 30px; /* Manter um padding confortável */
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Largura total */
+    max-width: 600px; /* Largura máxima do cartão aumentada */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+ 
+label {
+    display: block;
+    margin: 10px 0 5px; /* Espaçamento entre label e input */
+    color: #4f5666; /* Cor de texto suave */
+    font-weight: bold;
+}
+ 
+input, select {
+    width: calc(100% - 24px); /* Ajusta a largura para levar em conta o padding e a borda */
+    padding: 12px; /* Padding para conforto */
+    margin-bottom: 15px; /* Espaço entre os inputs */
+    border: 2px solid #B8F2E6; /* Borda em tom suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+ 
+input:focus, select:focus {
+    border-color: #AED9E0; /* Cor da borda ao focar */
+    outline: none; /* Remove a borda padrão do foco */
+}
+ 
+button {
+    width: 100%;
+    padding: 12px; /* Padding confortável */
+    background-color: #5d2e88; /* Botão em tom suave de rosa */
+    color: white;
+    border: none;
+    border-radius: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    align-items: center;
+
+}
+ 
+button:hover {
+    background-color: #FAF3DD; /* Cor do botão ao passar o mouse */
+    transform: translateY(-2px); /* Leve elevação do botão */
+}
+ 
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #5E6472; /* Fundo do rodapé em tom escuro */
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0; /* Coloca o rodapé na parte inferior */
+}
+ 
