@@ -1,8 +1,12 @@
-# **Conversor de Moedas**
+> # **Conversor de Moedas**
+
+----------------------------------------------------------------------------------------------
 
 ## **Descrição Geral**
 
 Este projeto é uma evolução de um projeto anterior, desenvolvido na AVPI, que visa a criação de uma aplicação web para conversão de moedas. A aplicação permite que o usuário insira um valor em uma moeda de origem e escolha uma moeda de destino, realizando a conversão com base nas taxas de câmbio atualizadas em tempo real, utilizando HTML5, CSS3 e JavaScript (puro).
+
+![](img/apiconversorvd.gif)
 
 A principal diferença em relação ao projeto anterior é a integração com uma API de câmbio, que permite consultar as taxas de conversão em tempo real, garantindo valores sempre atualizados de acordo com as variações do mercado.
 
@@ -37,8 +41,8 @@ Para usar a API, é necessário obter uma chave de API, que é inserida no códi
 
 ### **HTML**
 
-
-
+![](img/apihtml.png)
+![](img/api2html.png)
 
 **Explicação**:
 - A estrutura do HTML contém um formulário para inserção do valor e escolha das moedas.
@@ -47,7 +51,8 @@ Para usar a API, é necessário obter uma chave de API, que é inserida no códi
 
 ### **JavaScript**
 
-
+![](img/apijs.png)
+![](img/api2js.png)
 
 **Explicação**:
 - A função getExchangeRate faz uma requisição à API para obter a taxa de câmbio entre as moedas selecionadas.
@@ -55,6 +60,9 @@ Para usar a API, é necessário obter uma chave de API, que é inserida no códi
 
 ### **CSS**
 
+![](img/apicss.png)
+![](img/api2css.png)
+![](img/api3css.png)
 
 
 **Explicação**:
@@ -71,3 +79,6 @@ Para usar a API, é necessário obter uma chave de API, que é inserida no códi
 
 - Se houver um problema ao acessar a API ou realizar a conversão, será exibida uma mensagem de erro clara.
 - Se o valor inserido não for válido ou algum campo necessário estiver vazio, o formulário não será submetido.
+
+----------------------------------------------------------------------------------------------------------------------
+*Por Melissa de Souza Pinto*
